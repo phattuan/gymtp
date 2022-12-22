@@ -1,0 +1,50 @@
+.panner_home {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: transparent;
+  overflow: hidden;
+  padding: 70px 30px 45px 90px;
+}
+
+.panner_home .container_panner {
+  position: relative;
+  width: inherit;
+  height: 85vh;
+  border-radius: 40px;
+  -webkit-box-shadow: 0 0 40px black;
+          box-shadow: 0 0 40px black;
+  background: transparent;
+  overflow: hidden;
+}
+
+.panner_home .container_panner img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 100% 50%;
+     object-position: 100% 50%;
+  opacity: 0.7;
+  width: 100%;
+  height: inherit;
+}
+
+.panner_home .container_panner #title {
+  font-size: 2rem;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 10;
+  color: white;
+  font-weight: 600;
+  font-style: italic;
+}
+
+#bg_img {
+  position: absolute;
+  z-index: -10;
+  bottom: 0;
+  right: 5px;
+  height: 100vh;
+  opacity: 0.5;
+}
+/*# sourceMappingURL=panner_home.css.map */

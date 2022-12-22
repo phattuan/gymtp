@@ -1,0 +1,53 @@
+.expert_trainers_chill {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: rgb(26, 26, 26);
+  object-fit: cover;
+  .img_expert_trainer {
+    width: 100%;
+    height: 80%;
+    &:hover{
+      transform: scale(1.2);
+    }
+  }
+  .infor_expert_trainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    .name_expert_trainer {
+        text-transform: capitalize;
+        color: white;
+        font-weight: 600;
+        text-align: center;
+    }
+    .conact_expert_trainer{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        padding: 0 20px;
+        .job{
+            color: greenyellow;
+            text-transform: capitalize;
+            font-size: 1rem;
+        }
+        .icon_link_contact{
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+            justify-content: center;
+            .icon_contact{
+                display: flex;
+                color: deeppink;
+                font-size: 1.5rem;
+                transition: transform .3s linear;
+                padding: 5px 0;
+                &:hover{
+                    color: white;
+                    transform: translateY(-5px);
+                }
+            }
+        }
+    }
+  }
+}

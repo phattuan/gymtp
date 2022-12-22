@@ -1,0 +1,90 @@
+.expert_trainers_chill {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #1a1a1a;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.expert_trainers_chill .img_expert_trainer {
+  width: 100%;
+  height: 80%;
+}
+
+.expert_trainers_chill .img_expert_trainer:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.expert_trainers_chill .infor_expert_trainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+
+.expert_trainers_chill .infor_expert_trainer .name_expert_trainer {
+  text-transform: capitalize;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+
+.expert_trainers_chill .infor_expert_trainer .conact_expert_trainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20px;
+}
+
+.expert_trainers_chill .infor_expert_trainer .conact_expert_trainer .job {
+  color: greenyellow;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.expert_trainers_chill .infor_expert_trainer .conact_expert_trainer .icon_link_contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.expert_trainers_chill .infor_expert_trainer .conact_expert_trainer .icon_link_contact .icon_contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: deeppink;
+  font-size: 1.5rem;
+  -webkit-transition: -webkit-transform .3s linear;
+  transition: -webkit-transform .3s linear;
+  transition: transform .3s linear;
+  transition: transform .3s linear, -webkit-transform .3s linear;
+  padding: 5px 0;
+}
+
+.expert_trainers_chill .infor_expert_trainer .conact_expert_trainer .icon_link_contact .icon_contact:hover {
+  color: white;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+/*# sourceMappingURL=expert_trainer_chill.css.map */

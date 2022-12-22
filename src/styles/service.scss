@@ -1,0 +1,114 @@
+$border-dark: #35363a;
+
+.service {
+  position: relative;
+  padding: 120px 50px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 100vh;
+
+  .container_img_service {
+    position: relative;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    background: transparent;
+    border-radius: 50%;
+    border: 4px solid $border-dark;
+    box-shadow: 0 0 20px black, 0 0 20px black inset;
+    #img_service {
+      position: absolute;
+      width: 90%;
+      bottom: 0;
+    }
+  }
+  .container_service {
+    padding: 20px;
+    .border_name_service {
+      background-color: $border-dark;
+      width: fit-content;
+      height: fit-content;
+      padding: 10px;
+      border-radius: 30px;
+      box-shadow: 0 0 20px black;
+      .name_service {
+        color: greenyellow;
+        font-size: 1.7rem;
+        font-weight: 900;
+        font-style: italic;
+      }
+    }
+    .container_detail_service {
+      display: block;
+      .container_detail {
+        margin-top: 1rem;
+        .fa-check {
+          color: red;
+        }
+        span {
+          margin-left: 1rem;
+          color: white;
+          font-weight: 600;
+          font-size: 1rem;
+          font-style: italic;
+        }
+      }
+    }
+  }
+  .container_service_1 {
+    position: absolute;
+    top: 7vh;
+    left: 5vw;
+    .border_name_service{
+      margin-left: 45%;
+    }
+    .container_detail_service {
+      .container_detail:first-child {
+        margin-left: 0;
+      }
+      .container_detail:nth-child(2) {
+        margin-left: 2rem;
+      }
+      .container_detail:nth-child(3) {
+        margin-left: 3rem;
+      }
+    }
+  }
+  .container_service_2 {
+    position: absolute;
+    top: 10vh;
+    left: 60vw;
+    .container_detail_service {
+      .container_detail:first-child {
+        margin-left: 5rem;
+      }
+      .container_detail:nth-child(2) {
+        margin-left: 7rem;
+      }
+    }
+  }
+  .container_service_3 {
+    position: absolute;
+    top: 70vh;
+    left: 50px;
+    .container_detail_service {
+      .container_detail:first-child {
+        width: 450px;
+      }
+    }
+  }
+  .container_service_4 {
+    position: absolute;
+    top: 70vh;
+    left: 65vw;
+    .container_detail_service {
+      .container_detail:first-child {
+        width: 450px;
+      }
+    }
+    .border_name_service{
+      margin-left: 3.5rem;
+    }
+  }
+}
