@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gymtp/static/css/main.dbe3596d.css",
+    "main.js": "/gymtp/static/js/main.b879a311.js",
+    "index.html": "/gymtp/index.html",
+    "main.dbe3596d.css.map": "/gymtp/static/css/main.dbe3596d.css.map",
+    "main.b879a311.js.map": "/gymtp/static/js/main.b879a311.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbe3596d.css",
+    "static/js/main.b879a311.js"
+  ]
+}
